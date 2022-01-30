@@ -39,6 +39,14 @@ for(let i=0;i<btn.length;i++)
         input.innerHTML=btn[i].innerHTML;
         count=0;
         }
+        else if(btn[i].innerHTML==".")
+        {
+            let mainstr = input.innerHTML;
+            if(! mainstr.includes("."))
+               {
+            input.innerHTML+=btn[i].innerHTML; 
+            count =0;
+        }
         else
         {
         input.innerHTML+=btn[i].innerHTML;
