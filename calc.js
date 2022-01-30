@@ -44,8 +44,9 @@ for(let i=0;i<btn.length;i++)
             let mainstr = input.innerHTML;
             if(! mainstr.includes("."))
                {
-            input.innerHTML+=btn[i].innerHTML; 
-            count =0;
+                    input.innerHTML+=btn[i].innerHTML; 
+                    count =0;
+                }
         }
         else
         {
