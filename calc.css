@@ -1,0 +1,75 @@
+*{
+    padding:0;
+    margin:0;
+}
+#main{
+    width:250px;
+    overflow: auto;
+    position:relative;
+    top:50px;
+    margin:auto;
+    border:red solid;
+    padding:10px;
+    border-radius: 10px;
+    background-color: blue;
+}
+#input{
+    width:220px;
+    margin:5px auto;
+    border:5px inset ;
+    height: 35px;
+    background-color: white;
+    text-align: right;
+    font-size: 30px;
+}
+#head{
+    width:74%;
+    border:solid blue;
+    float:left;
+    margin-top: 10px;
+}
+#first{
+
+}
+#second{
+
+}
+#third{
+    width:20%;
+    /* border:solid green; */
+    float:right;
+    margin-top: 14px;
+}
+.btn
+{
+    width:50px;
+    height:50px;
+    margin:4px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.size{
+    width:35px;
+    height:35px;
+}
+.color{
+    background-color: black;
+    color:white;
+    font-size: 20px;
+}
+.red{
+    background-color: red;
+    color:white;
+    font-size: 16px;
+}
+#nav{
+    background-color: black;
+    color:white;
+    width:300px;
+    text-align: center;
+    margin:50px auto;
+    text-shadow: 5px 5px 5px blue;
+    
+    
+
+}
