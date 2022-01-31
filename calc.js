@@ -15,6 +15,15 @@ for(let i=0;i<btn.length;i++)
         }
         else if(btn[i].innerHTML=="C")
         input.innerHTML="0";
+        else if(btn[i].classList.contains("dot"))
+        {
+            let mainstr = input.innerHTML;
+            if(!mainstr.includes('.'))
+            {
+                input.innerHTML+=btn[i].innerHTML;
+            }
+            count= 0;
+        }
         else if(btn[i].classList.contains("operator"))
         {
             if(count==0)
@@ -38,15 +47,6 @@ for(let i=0;i<btn.length;i++)
         {
         input.innerHTML=btn[i].innerHTML;
         count=0;
-        }
-        else if(btn[i].innerHTML==".")
-        {
-            let mainstr = input.innerHTML;
-            if(! mainstr.includes("."))
-               {
-                    input.innerHTML+=btn[i].innerHTML; 
-                    count =0;
-                }
         }
         else
         {
